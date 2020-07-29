@@ -72,15 +72,21 @@ section h1 {
 }
 
 section#home {
-  background-color: red;
+background-image: url("background.png");
+object-fit: cover;
+background-size: cover;
+}
+
+#home{
+  object-fit: cover;
 }
 
 section#about {
-  background: blue;
+  background: #EB594F;
 }
 
 section#themes {
-  background: green;
+  background: #FBE0D7;
 }
 
 section#form {
@@ -92,8 +98,8 @@ section#form {
 }
 
 .about-img{
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
 }
 
 .right-section{
@@ -102,6 +108,7 @@ section#form {
 
 .left-section{
   margin-right: 50px;
+  margin-top: 70px;
 }
 
 form{
@@ -170,4 +177,51 @@ hr{
 
 placeholder{
   color: white;
+}
+
+.signup {
+  background-color : #31B0D5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #46b8da;
+  cursor: pointer;
+  height: 50px;
+  width: 140px;
+  outline: none;
+  border: none;
+  font-size: 17px;
+}
+
+.signup:hover{
+  opacity: 0.9;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+}
+.con{
+  display: flex;
+}
+
+video{
+  height: 370px;
+  width: 370px;
+  margin-top: 50px;
+  border: 2px black solid;
+}
+
+.grade9{
+  margin-right: 50px;
+}
+.grade10{
+  margin-right: 50px;
+}
+
+.text{
+  display: flex;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
